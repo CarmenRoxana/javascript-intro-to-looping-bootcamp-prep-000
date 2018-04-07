@@ -17,8 +17,8 @@ return 'done';
 }
 
 function doWhileLoop(arr) {
-while (num>=0) {
-  console.log(num--);
+do {
+  arr.pop();
 }
-return 'done';
+while (maybeTrue())
 }
