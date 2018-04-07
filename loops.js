@@ -10,7 +10,7 @@ function forLoop(arr) {
 }
 
 function maybeTrue() {
-  return Math.random() >= 0.5
+  return Math.random() >= 0.5;
 }
 
 function whileLoop(num) {
