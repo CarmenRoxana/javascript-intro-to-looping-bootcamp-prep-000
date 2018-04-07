@@ -9,6 +9,10 @@ function forLoop(arr) {
   return arr;
 }
 
+function maybeTrue() {
+  return Math.random() >= 0.5
+}
+
 function whileLoop(num) {
 while (num>0) {
   console.log(num--);
